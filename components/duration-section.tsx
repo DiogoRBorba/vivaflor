@@ -32,7 +32,14 @@ export function DurationSection() {
           </div>
 
           <div className="flex justify-center">
-            <VideoPlayer title="Duração do Programa em Libras" placeholder="Explicação sobre a duração do programa" />
+            {/* VIDEO 8: Tempo de Duração 
+                Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+            */}
+            <VideoPlayer
+              title="Duração do Programa em Libras"
+              placeholder="Explicação sobre a duração do programa"
+              videoSrc="/nome-do-video.mp4"
+            />
           </div>
         </div>
       </div>

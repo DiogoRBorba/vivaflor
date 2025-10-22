@@ -50,7 +50,14 @@ export function InclusionSection() {
           </div>
 
           <div className="flex justify-center">
-            <VideoPlayer title="Inclusão no Programa em Libras" placeholder="Explicação sobre quem pode participar" />
+            {/* VIDEO 7: Formas de Inclusão no Programa 
+                Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+            */}
+            <VideoPlayer
+              title="Inclusão no Programa em Libras"
+              placeholder="Explicação sobre quem pode participar"
+              videoSrc="/nome-do-video.mp4"
+            />
           </div>
         </div>
       </div>

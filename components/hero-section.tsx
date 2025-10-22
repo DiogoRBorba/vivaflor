@@ -19,9 +19,11 @@ export function HeroSection() {
             </p>
           </div>
           <div className="flex justify-center lg:justify-end">
+            {/* VIDEO 1: Apresentação do Programa Viva Flor */}
             <VideoPlayer
               title="Apresentação do Programa em Libras"
               placeholder="Vídeo de apresentação do Programa Viva Flor em Libras"
+              videoSrc="/video1programavivaflor.mp4"
             />
           </div>
         </div>

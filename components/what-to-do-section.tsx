@@ -67,6 +67,7 @@ export function WhatToDoSection() {
             <VideoPlayer
               title="Canais de Atendimento em Libras"
               placeholder="Informações sobre canais de atendimento"
+              videoSrc="/nome-do-video.mp4"
             />
           </div>
 
@@ -139,7 +140,11 @@ export function WhatToDoSection() {
               </div>
             </div>
 
-            <VideoPlayer title="Maria da Penha Online em Libras" placeholder="Como usar o serviço online" />
+            <VideoPlayer
+              title="Maria da Penha Online em Libras"
+              placeholder="Como usar o serviço online"
+              videoSrc="/nome-do-video.mp4"
+            />
           </div>
         </div>
 

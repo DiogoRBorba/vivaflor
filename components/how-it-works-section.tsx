@@ -74,9 +74,13 @@ export function HowItWorksSection() {
           </div>
 
           <div className="flex justify-center">
+            {/* VIDEO 5: Como o Programa Funciona 
+                Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+            */}
             <VideoPlayer
               title="Como Funciona em Libras"
               placeholder="Explicação completa de como o programa funciona"
+              videoSrc="/como-funciona.mp4"
             />
           </div>
         </div>

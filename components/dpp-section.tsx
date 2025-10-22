@@ -28,9 +28,13 @@ export function DppSection() {
               </p>
             </div>
             <div className="pt-4">
+              {/* VIDEO 6: O que é o DPP 
+                  Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+              */}
               <VideoPlayer
                 title="O que é o DPP em Libras"
                 placeholder="Explicação sobre o Dispositivo de Proteção Preventiva"
+                videoSrc="/nome-do-video.mp4"
               />
             </div>
           </div>

@@ -27,7 +27,15 @@ export function ViolenceTypesSection() {
             <p className="text-muted-foreground text-pretty">
               Quando a pessoa bate, chuta, empurra, dá tapa, soco ou puxa o cabelo da mulher.
             </p>
-            <VideoPlayer title="Violência Física em Libras" placeholder="Explicação sobre violência física" compact />
+            {/* VIDEO 9: Violência Física 
+                Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+            */}
+            <VideoPlayer
+              title="Violência Física em Libras"
+              placeholder="Explicação sobre violência física"
+              compact
+              videoSrc="/violencia-fisica.mp4"
+            />
           </div>
 
           <div className="rounded-2xl border border-border bg-card p-6 space-y-4">
@@ -39,10 +47,14 @@ export function ViolenceTypesSection() {
               Quando a pessoa faz ameaças, persegue, xinga, ou impede a mulher de sair e fazer o que quiser, causando
               sofrimento emocional.
             </p>
+            {/* VIDEO 10: Violência Psicológica 
+                Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+            */}
             <VideoPlayer
               title="Violência Psicológica em Libras"
               placeholder="Explicação sobre violência psicológica"
               compact
+              videoSrc="/violencia-psicologica.mp4"
             />
           </div>
 
@@ -54,7 +66,15 @@ export function ViolenceTypesSection() {
             <p className="text-muted-foreground text-pretty">
               Quando a mulher é forçada a ter ou assistir a relações sexuais que não quer, usando ameaça ou força.
             </p>
-            <VideoPlayer title="Violência Sexual em Libras" placeholder="Explicação sobre violência sexual" compact />
+            {/* VIDEO 11: Violência Sexual 
+                Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+            */}
+            <VideoPlayer
+              title="Violência Sexual em Libras"
+              placeholder="Explicação sobre violência sexual"
+              compact
+              videoSrc="/violencia-sexual.mp4"
+            />
           </div>
 
           <div className="rounded-2xl border border-border bg-card p-6 space-y-4">
@@ -66,10 +86,14 @@ export function ViolenceTypesSection() {
               Quando alguém tira, destrói ou guarda os bens, documentos, dinheiro ou coisas importantes da mulher para
               prejudicá-la.
             </p>
+            {/* VIDEO 12: Violência Patrimonial 
+                Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+            */}
             <VideoPlayer
               title="Violência Patrimonial em Libras"
               placeholder="Explicação sobre violência patrimonial"
               compact
+              videoSrc="/violencia-patrimonial.mp4"
             />
           </div>
 
@@ -81,7 +105,15 @@ export function ViolenceTypesSection() {
             <p className="text-muted-foreground text-pretty">
               Quando a pessoa fala coisas falsas, difama ou humilha a mulher para machucá-la.
             </p>
-            <VideoPlayer title="Violência Moral em Libras" placeholder="Explicação sobre violência moral" compact />
+            {/* VIDEO 13: Violência Moral 
+                Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+            */}
+            <VideoPlayer
+              title="Violência Moral em Libras"
+              placeholder="Explicação sobre violência moral"
+              compact
+              videoSrc="/violencia-moral.mp4"
+            />
           </div>
         </div>
       </div>

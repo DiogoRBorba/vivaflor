@@ -23,10 +23,14 @@ export function ProgramSection() {
               Atendimento prioritário em situação de emergência com apenas um toque no dispositivo.
             </p>
             <div className="mt-4">
+              {/* VIDEO 2: Proteção Prioritária 
+                  Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+              */}
               <VideoPlayer
                 title="Proteção Prioritária em Libras"
                 placeholder="Explicação sobre proteção prioritária"
                 compact
+                videoSrc="/protecao-prioritaria.mp4"
               />
             </div>
           </div>
@@ -40,10 +44,14 @@ export function ProgramSection() {
               Aplicativo instalado no celular da vítima para acionar a polícia rapidamente.
             </p>
             <div className="mt-4">
+              {/* VIDEO 3: Dispositivo Móvel 
+                  Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+              */}
               <VideoPlayer
                 title="Dispositivo Móvel em Libras"
                 placeholder="Explicação sobre o dispositivo móvel"
                 compact
+                videoSrc="/dispositivo-movel.mp4"
               />
             </div>
           </div>
@@ -57,7 +65,15 @@ export function ProgramSection() {
               Fiscalização do cumprimento das medidas protetivas de afastamento e proibição de aproximação.
             </p>
             <div className="mt-4">
-              <VideoPlayer title="Acompanhamento em Libras" placeholder="Explicação sobre acompanhamento" compact />
+              {/* VIDEO 4: Acompanhamento 
+                  Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
+              */}
+              <VideoPlayer
+                title="Acompanhamento em Libras"
+                placeholder="Explicação sobre acompanhamento"
+                compact
+                videoSrc="/acompanhamento.mp4"
+              />
             </div>
           </div>
         </div>
