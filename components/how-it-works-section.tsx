@@ -80,7 +80,7 @@ export function HowItWorksSection() {
             <VideoPlayer
               title="Como Funciona em Libras"
               placeholder="Explicação completa de como o programa funciona"
-              videoSrc="/como-funciona.mp4"
+              videoSrc="/video2programavivaflor.mp4"
             />
           </div>
         </div>

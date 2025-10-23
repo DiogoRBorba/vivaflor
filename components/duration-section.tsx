@@ -38,7 +38,7 @@ export function DurationSection() {
             <VideoPlayer
               title="Duração do Programa em Libras"
               placeholder="Explicação sobre a duração do programa"
-              videoSrc="/nome-do-video.mp4"
+              videoSrc="/tempoprograma.mp4"
             />
           </div>
         </div>

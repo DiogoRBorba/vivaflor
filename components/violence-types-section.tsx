@@ -34,7 +34,7 @@ export function ViolenceTypesSection() {
               title="Violência Física em Libras"
               placeholder="Explicação sobre violência física"
               compact
-              videoSrc="/violencia-fisica.mp4"
+              videoSrc="/violenciafisica.mp4"
             />
           </div>
 
@@ -54,7 +54,7 @@ export function ViolenceTypesSection() {
               title="Violência Psicológica em Libras"
               placeholder="Explicação sobre violência psicológica"
               compact
-              videoSrc="/violencia-psicologica.mp4"
+              videoSrc="/violenciapsicologica.mp4"
             />
           </div>
 
@@ -73,7 +73,7 @@ export function ViolenceTypesSection() {
               title="Violência Sexual em Libras"
               placeholder="Explicação sobre violência sexual"
               compact
-              videoSrc="/violencia-sexual.mp4"
+              videoSrc="/violenciasexual.mp4"
             />
           </div>
 
@@ -93,7 +93,7 @@ export function ViolenceTypesSection() {
               title="Violência Patrimonial em Libras"
               placeholder="Explicação sobre violência patrimonial"
               compact
-              videoSrc="/violencia-patrimonial.mp4"
+              videoSrc="/violenciapatrimonial.mp4"
             />
           </div>
 
@@ -112,7 +112,7 @@ export function ViolenceTypesSection() {
               title="Violência Moral em Libras"
               placeholder="Explicação sobre violência moral"
               compact
-              videoSrc="/violencia-moral.mp4"
+              videoSrc="/violenciamoral.mp4"
             />
           </div>
         </div>

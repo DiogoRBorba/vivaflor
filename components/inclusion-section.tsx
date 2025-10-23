@@ -56,7 +56,7 @@ export function InclusionSection() {
             <VideoPlayer
               title="Inclusão no Programa em Libras"
               placeholder="Explicação sobre quem pode participar"
-              videoSrc="/nome-do-video.mp4"
+              videoSrc="/quempodeparticipar.mp4"
             />
           </div>
         </div>

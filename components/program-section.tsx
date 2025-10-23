@@ -22,17 +22,6 @@ export function ProgramSection() {
             <p className="text-muted-foreground text-pretty">
               Atendimento prioritário em situação de emergência com apenas um toque no dispositivo.
             </p>
-            <div className="mt-4">
-              {/* VIDEO 2: Proteção Prioritária 
-                  Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
-              */}
-              <VideoPlayer
-                title="Proteção Prioritária em Libras"
-                placeholder="Explicação sobre proteção prioritária"
-                compact
-                videoSrc="/protecao-prioritaria.mp4"
-              />
-            </div>
           </div>
 
           <div className="group relative overflow-hidden rounded-2xl border border-border bg-card p-6 transition-all hover:shadow-lg hover:border-primary/50">
@@ -43,17 +32,6 @@ export function ProgramSection() {
             <p className="text-muted-foreground text-pretty">
               Aplicativo instalado no celular da vítima para acionar a polícia rapidamente.
             </p>
-            <div className="mt-4">
-              {/* VIDEO 3: Dispositivo Móvel 
-                  Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
-              */}
-              <VideoPlayer
-                title="Dispositivo Móvel em Libras"
-                placeholder="Explicação sobre o dispositivo móvel"
-                compact
-                videoSrc="/dispositivo-movel.mp4"
-              />
-            </div>
           </div>
 
           <div className="group relative overflow-hidden rounded-2xl border border-border bg-card p-6 transition-all hover:shadow-lg hover:border-primary/50">
@@ -64,17 +42,6 @@ export function ProgramSection() {
             <p className="text-muted-foreground text-pretty">
               Fiscalização do cumprimento das medidas protetivas de afastamento e proibição de aproximação.
             </p>
-            <div className="mt-4">
-              {/* VIDEO 4: Acompanhamento 
-                  Para adicionar o vídeo, adicione a prop videoSrc="/nome-do-video.mp4"
-              */}
-              <VideoPlayer
-                title="Acompanhamento em Libras"
-                placeholder="Explicação sobre acompanhamento"
-                compact
-                videoSrc="/acompanhamento.mp4"
-              />
-            </div>
           </div>
         </div>
       </div>

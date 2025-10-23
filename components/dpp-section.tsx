@@ -34,7 +34,7 @@ export function DppSection() {
               <VideoPlayer
                 title="O que é o DPP em Libras"
                 placeholder="Explicação sobre o Dispositivo de Proteção Preventiva"
-                videoSrc="/nome-do-video.mp4"
+                videoSrc="/video3programavivaflor.mp4"
               />
             </div>
           </div>
